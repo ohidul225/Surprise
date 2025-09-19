@@ -57,6 +57,7 @@ class _ThirdPageState extends State<ThirdPage> {
     try {
       await _audioPlayer.play(UrlSource(_songUrl));
     } catch (e) {
+      // ignore: avoid_print
       print("Error playing music: $e");
     }
   }
@@ -124,8 +125,10 @@ class _ThirdPageState extends State<ThirdPage> {
                     ),
                     padding: const EdgeInsets.all(20),
                     decoration: BoxDecoration(
+                      // ignore: deprecated_member_use
                       color: Colors.white.withOpacity(0.2),
                       borderRadius: BorderRadius.circular(20),
+                      // ignore: deprecated_member_use
                       border: Border.all(color: Colors.white.withOpacity(0.3)),
                     ),
                     child: Column(
@@ -154,6 +157,7 @@ class _ThirdPageState extends State<ThirdPage> {
                               overlayRadius: 10,
                             ),
                             activeTrackColor: Colors.white,
+                            // ignore: deprecated_member_use
                             inactiveTrackColor: Colors.white.withOpacity(0.3),
                             thumbColor: Colors.pinkAccent,
                           ),
@@ -265,6 +269,7 @@ class _ThirdPageState extends State<ThirdPage> {
               right: 20,
               child: Icon(
                 Icons.music_note,
+                // ignore: deprecated_member_use
                 color: Colors.white.withOpacity(0.5),
                 size: 30,
               ),

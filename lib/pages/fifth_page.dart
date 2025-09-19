@@ -29,6 +29,7 @@ class FifthPage extends StatelessWidget {
                   shadows: [
                     Shadow(
                       blurRadius: 10.0,
+                      // ignore: deprecated_member_use
                       color: Colors.black.withOpacity(0.2),
                       offset: Offset(2, 2),
                     ),
@@ -42,10 +43,12 @@ class FifthPage extends StatelessWidget {
               Container(
                 padding: const EdgeInsets.all(24),
                 decoration: BoxDecoration(
+                  // ignore: deprecated_member_use
                   color: Colors.white.withOpacity(0.9),
                   borderRadius: BorderRadius.circular(20),
                   boxShadow: [
                     BoxShadow(
+                      // ignore: deprecated_member_use
                       color: Colors.black.withOpacity(0.1),
                       blurRadius: 15,
                       offset: const Offset(0, 5),
