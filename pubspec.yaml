@@ -1,0 +1,40 @@
+name: surprised
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.2
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  animated_splash_screen: ^1.3.0
+  google_fonts: 4.0.4
+  cupertino_icons: ^1.0.8
+  animated_text_kit: ^4.2.3
+  audioplayers: 5.2.1
+  camera: ^0.10.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1  # ← ADD THIS LINE
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/splash_animation.gif
+    
+  fonts:
+    - family: DancingScript
+      fonts:
+        - asset: assets/fonts/DancingScript.ttf 
+
+# ADD THIS ENTIRE SECTION FOR APP ICONS ↓
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/icon.png"  # Create this folder and add your icon
