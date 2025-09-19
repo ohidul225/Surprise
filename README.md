@@ -13,5 +13,5 @@
 
 You can download the latest APK here:
 
-[⬇️ Download APK](https://github.com/ohidul225/Surprise/releases/download/v1.0.1/app-release.apk)
+[⬇️ Download APK](https://github.com/ohidul225/Surprise/releases/tag/v1.0.1)
 
